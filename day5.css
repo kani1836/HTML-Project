@@ -1,0 +1,48 @@
+.d1{
+    height: 35vh;
+    background-color: blue;
+}
+.d2{
+    height: 25vh;
+    background-color: beige;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    width: 100vw;
+}
+
+.d3{
+    height: 25vh;
+    background-color: skyblue;
+    width: 45vw;
+    /* float: left; */
+}
+
+.d4{
+    height: 25vh;
+    background-color: orange;
+    width: 45vw;
+    /* float: right; */
+}
+p{
+    padding: 10px;
+}
+
+.wrap{
+    width: 25px;
+    background-color: aquamarine;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+
+    body{
+        background-color: red;
+    }
+}

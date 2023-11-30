@@ -1,0 +1,47 @@
+.parent-div{
+    display: flex;
+    height: 25vh;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   
+    
+}
+
+.div-a, .div-b{
+    background-color: aqua;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.div-b{
+    background-color:beige;
+   
+}
+
+.grid-parent-div{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 100px 100px 100px ;
+    background-color: antiquewhite;
+    column-gap: 100px;
+    margin: 20px 0px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 2px 12px 6px grey;
+}
+
+.grid-parent-div p{
+    background-color: aqua;
+    padding: 5px;
+    margin: 0px;
+}
+
+li{
+    list-style: circle;
+    display: inline;
+    padding: 10px;
+}
