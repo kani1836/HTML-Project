@@ -1,0 +1,79 @@
+.div1, .div2, .div3{
+    width: 100vw;
+    height: 25vh;
+    background-color: blue;
+    cursor: pointer;
+    transition: 3s all;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1:hover{
+    background-color: yellow;
+    width: 50vw;
+    border-radius: 500px;
+}
+
+.div2{
+    transition: 3s border-radius;
+    margin-top: 25px;
+    text-align: center;
+    transition-delay: 2s;
+    background-color: beige;
+}
+
+.div2:hover{
+    background-color: yellow;
+    border-radius: 500px;
+}
+
+.div3{
+    margin-top: 25px;
+    background-color: aquamarine;
+    /* transform: translateX(200px); */
+    transform: rotate(25deg);
+    /* transform: skew(25deg); */
+    width: 50vw;
+    /* transform: scale(50%); */
+}
+
+.div4{
+    width: 100vw;
+    height: 25vh;
+    margin-top:50px;
+    background-color: orange;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example1 {
+    0%{
+       
+            background-color: red;
+       
+    }
+
+    50%{
+        
+            background-color:blanchedalmond;
+            transform: scale(50%);
+       
+    }
+
+
+    100%{
+        
+            background-color: black;
+            color: white;
+            border-radius: 100%;
+            width: 20vw;
+        
+    }
+}
