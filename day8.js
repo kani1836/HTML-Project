@@ -62,3 +62,6 @@ console.log ("OR (10==10  || 10>11)",10==10  || 10>11)
 
 let result = (10 < 5) ? "Okay I can accept" : "Condition is false so I am printing this";
 console.log("Ternary (10 < 5)", result)
+
+
+

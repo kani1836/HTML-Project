@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Js with HTML and css</title>
+</head>
+<body>
+
+    <div id="d1">
+        <p id="p1"></p>
+    </div>
+
+    <!-- DOM Document Object Modal -->
+   <script>
+
+        //CRUD operations
+
+        //create
+        let newPtag = document.createElement ("p")
+        newPtag.innerText = "This is a paragraph"
+        document.getElementById("d1").appendChild(newPtag)
+
+         //read
+         let word = document.getElementById("p1").textContent 
+         console.log(word)
+
+         //update
+         document.getElementById("p1").innerHTML = "This word is from JS"
+
+         //Delete
+         document.getElementById("p1").remove()
+        
+
+
+   </script> 
+</body>
+</html>

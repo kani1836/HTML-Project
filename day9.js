@@ -143,11 +143,38 @@ console.log("substr method")
 console.log(w1.substr(10, 1))
 
 
-//test
+//day10 continue
 
-let test1 = "kanikumar";
-for(i = 0; i < test1.length; i++) {
-    if(i % 2 == 0) {
-        console.log(test1.charAt(i));
-    }
-}
+console.log(w1.replace("javascript", "frontend"))
+
+console.log(w1.repeat(3))
+
+let w2 = " hello"
+
+console.log(w2.trim())
+
+
+let w3 = "hello"
+console.log(w3.padStart(8, "hoo"))
+
+console.log(w1.includes("java"))
+console.log(w1.includes("javdda"))
+
+console.log(w1.startsWith("This"))
+console.log(w1.startsWith("is"))
+
+console.log(w1.endsWith("ss"))
+console.log(w1.endsWith("ds"))
+
+//string search methods
+let w4 = "this is a class javascript class"
+
+console.log(w4.indexOf("class"))
+console.log(w4.indexOf("class", 11))
+console.log(w4.lastIndexOf("class"))
+
+console.log(w4.search(/class/i))
+console.log(w4.search("class"))
+
+console.log(w4.match(/class/gi))
+console.log(w4.matchAll(/class/gi))
